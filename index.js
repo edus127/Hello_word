@@ -11,8 +11,9 @@ let masViejo = function(estudiante1, estudiante2) {
         return estudiante2.name
     }
 }
-
 let estudianteMasViejo = masViejo(estudiante1, estudiante2);
+console.log(estudianteMasViejo);
+
 let estudiante2 = {
     name: "Eduardo",
     apelidos: "Sierra Robles",
